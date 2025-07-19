@@ -8,6 +8,9 @@ def filter_by_state(list_of_dict: list, state='EXECUTED') -> list:
 
     return filtered_list
 
+list_of_dict =[{'id': 41428829, 'state': 'EXECUTED', 'date': '2019-07-03T18:35:29.512364'}, {'id': 939719570, 'state': 'EXECUTED', 'date': '2018-06-30T02:08:58.425572'}]
+print(filter_by_state(list_of_dict))
+
 
 from datetime import datetime
 
